@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import { sounds } from '@/lib/data';
 import SoundCard from '@/components/SoundCard';
 import { Cloud, Globe } from 'lucide-react';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import Footer from '@/components/Footer';
 
 export default function Home() {

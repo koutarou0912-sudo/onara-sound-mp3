@@ -1,6 +1,6 @@
 'use client';
 
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useLanguage } from '../../contexts/LanguageContext';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
@@ -57,7 +57,7 @@ export default function PrivacyPage() {
                     </h1>
 
                     <div className="space-y-10">
-                        {content.sections.map((section, index) => (
+                        {content.sections.map((section: { heading: string; content: string }, index: number) => (
                             <section key={index}>
                                 <h2 className="text-xl font-bold text-slate-700 mb-4">
                                     {section.heading}
