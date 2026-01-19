@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: "おなら効果音フリー素材サイト - Onara Sound MP3",
   description: "数々のおならの音が惜しげもなく無料！商用利用・加工も可能な高品質おなら音源配布サイトです。",
   keywords: ["fart sounds", "onara", "mp3", "sound effects", "おなら", "効果音", "無料", "フリー素材"],
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
